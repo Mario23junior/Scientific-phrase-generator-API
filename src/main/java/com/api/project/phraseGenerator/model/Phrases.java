@@ -1,4 +1,4 @@
-package com.api.project.phraseGeneratormodel;
+package com.api.project.phraseGenerator.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
