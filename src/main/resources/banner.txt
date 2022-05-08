@@ -1,0 +1,19 @@
+____    ____  ____   ___     ___   ___ ___      ____  __ __  ____    ____  _____   ___      
+|    \  /    T|    \ |   \   /   \ |   T   T    |    \|  T  T|    \  /    T/ ___/  /  _]     
+|  D  )Y  o  ||  _  Y|    \ Y     Y| _   _ |    |  o  )  l  ||  D  )Y  o  (   \_  /  [_      
+|    / |     ||  |  ||  D  Y|  O  ||  \_/  |    |   _/|  _  ||    / |     |\__  TY    _]     
+|    \ |  _  ||  |  ||     ||     ||   |   |    |  |  |  |  ||    \ |  _  |/  \ ||   [_      
+|  .  Y|  |  ||  |  ||     |l     !|   |   |    |  |  |  |  ||  .  Y|  |  |\    ||     T     
+l__j\_jl__j__jl__j__jl_____j \___/ l___j___j    l__j  l__j__jl__j\_jl__j__j \___jl_____j     
+                                                                                             
+  ____    ___  ____     ___  ____    ____  ______   ___   ____              ____  ____  ____ 
+ /    T  /  _]|    \   /  _]|    \  /    T|      T /   \ |    \            /    T|    \l    j
+Y   __j /  [_ |  _  Y /  [_ |  D  )Y  o  ||      |Y     Y|  D  ) _____     Y  o  ||  o  )|  T 
+|  T  |Y    _]|  |  |Y    _]|    / |     |l_j  l_j|  O  ||    / |     |    |     ||   _/ |  | 
+|  l_ ||   [_ |  |  ||   [_ |    \ |  _  |  |  |  |     ||    \ l_____j    |  _  ||  |   |  | 
+|     ||     T|  |  ||     T|  .  Y|  |  |  |  |  l     !|  .  Y           |  |  ||  |   j  l 
+l___,_jl_____jl__j__jl_____jl__j\_jl__j__j  l__j   \___/ l__j\_j           l__j__jl__j  |____j
+
+********** Random Phrase Generator - API *********
+
+ Application Version:${application.version} ${AnsiColor.RED} ::: Spring Boot ${spring-boot.formatted-version} ::: ${AnsiColor.RED}                                                                                        
