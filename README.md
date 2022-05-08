@@ -38,12 +38,14 @@ mundo e sua ciência.
 
 ## 🚀 Começando
 
+## Uso em produção
+
+```
+  https://phrase-generator-science-api.herokuapp.com/api/project/rand
+```
+  
 Algums parametros de ação são necessarios para a execução
 ### 📋 Pré-requisitos
-
-
-Você pode esta alterando o tamanho do print direto no codigo
-
 
 ### 🔧 Instalação
 
@@ -56,12 +58,13 @@ java -jar target/phraseGenerator-1.0-SNAPSHOT.jar
 
 ```
  
-## Uso
+## Uso local
 
 ```
 localhost:8080/api/project/rand
 ```
-
+ 
+  
 ## 🛠️ Construído com
 
 Mencione as ferramentas que você usou para criar seu projeto
