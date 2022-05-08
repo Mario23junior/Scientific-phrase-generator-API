@@ -1,5 +1,6 @@
 package com.api.project.phraseGenerator.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -11,7 +12,11 @@ public class Phrases {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
+	
+	@Column(name = "phrases")
 	private String phrases;
+	
+	@Column(name = "author")
 	private String author;
 	
 	public Phrases() {
