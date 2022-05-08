@@ -2,8 +2,8 @@
 
 <br />
 <div align="center">
-  <a href="logo/logo.gif">
-    <img src="logo.png" alt="Logo" width="400" height="400">
+  <a href="logo.gif">
+    <img src="logo.gif" alt="Logo" width="400" height="400">
   </a>
 
   <h3 align="center"> Scientific phrase generator API</h3>
@@ -29,7 +29,7 @@ mundo e sua ciência.
  </a>
  <p align="center">
  
-<a href="https://app.travis-ci.com/Mario23junior/Missions-to-Jupiter.svg?branch=main" target="_blank"> [![Build Status](https://app.travis-ci.com/Mario23junior/To-do-list-user-API.svg?branch=main)](https://app.travis-ci.com/github/Mario23junior/To-do-list-user-API)
+<a href="https://app.travis-ci.com/Mario23junior/Scientific-phrase-generator-API.svg?branch=main" target="_blank"> [![Build Status](https://app.travis-ci.com/Mario23junior/Scientific-phrase-generator-API.svg?branch=main)](https://app.travis-ci.com/github/Mario23junior/Scientific-phrase-generator-API)
 <a href="https://en.wikipedia.org/wiki/Representational_state_transfer"><img src="https://img.shields.io/badge/interface-REST-brightgreen.svg?longCache=true&style=flat-square" target="_blank"></a>
 </p>
   
