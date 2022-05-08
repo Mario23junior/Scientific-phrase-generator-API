@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="logo.gif">
-    <img src="logo/logo.gif" alt="Logo" width="400" height="400">
+    <img src="logo2.gif" alt="Logo" width="400" height="400">
   </a>
 
   <h3 align="center"> Scientific phrase generator API</h3>
