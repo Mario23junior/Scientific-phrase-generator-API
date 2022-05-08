@@ -1,10 +1,9 @@
 <div id="top"></div> 
 
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="logo/logo.gif">
-    <img src="logo.png" alt="Logo" width="200" height="200">
+    <img src="logo.png" alt="Logo" width="400" height="400">
   </a>
 
   <h3 align="center"> Scientific phrase generator API</h3>
@@ -16,9 +15,9 @@
     <br />
     <br />
      ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Reportar Bug</a>
+    <a href="">Reportar Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Soliciatar recurso</a>
+    <a href="">Soliciatar recurso</a>
   </p>
 </div>
 
