@@ -3,9 +3,10 @@
 <br />
 <div align="center">
   <a href="logo.gif">
-    <img src="logo2.gif" alt="Logo" width="400" height="400">
+    <img src="logo.gif" alt="Logo" width="600" height="500" style="border-radius: 50%"/>
   </a>
 
+  
   <h3 align="center"> Scientific phrase generator API</h3>
 
   <h4 align="center">
