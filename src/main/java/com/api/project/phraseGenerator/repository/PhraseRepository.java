@@ -14,5 +14,7 @@ public interface PhraseRepository extends JpaRepository<Phrases, Long> {
 	
 	@Query(nativeQuery=true, value="SELECT * FROM Phrases ORDER BY RANDOM () LIMIT 1;")
  	Optional<Phrases> findAllValueData();
+
+	Phrases findByPhrases(String phrases);
 	
 }

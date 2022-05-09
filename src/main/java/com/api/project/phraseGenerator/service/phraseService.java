@@ -33,6 +33,7 @@ public class phraseService {
 	}
 	
 	public ResponseEntity<PhrasesDTO> savePhrase(PhrasesDTO phrasesDto) {
+		ValidDataDuplicate(phrasesDto);
 		Phrases body = bodySaveBase(mapper.map(phrasesDto, Phrases.class));
 		 return ResponseEntity
 				         .status(HttpStatus.OK)
@@ -43,5 +44,14 @@ public class phraseService {
 	public Phrases bodySaveBase(Phrases phrases) {
 		return phraseRepository.save(phrases);
 	}
+	
+	public void ValidDataDuplicate(PhrasesDTO phrasesDto) {
+		Phrases dtoList = mapper.map(phrasesDto, Phrases.class);
+		Phrases findData = phraseRepository.findByPhrases(phrasesDto.getPhrases());
+		if(findData != null && findData.getId() != dtoList.getId()) {
+			ResponseEntity.noContent();
+		}
+	}
+	
 	
 }
