@@ -66,5 +66,15 @@ public class phraseService {
 		}
 	}
 	
+	public ResponseEntity<PhrasesDTO> delete(Long id) {
+		Optional<Phrases> findId = phraseRepository.findById(id);
+		if(findId.isPresent()) {
+			phraseRepository.delete(findId.get());
+			return new ResponseEntity<>(HttpStatus.OK);
+		} else {
+			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+		}
+ 	}
+	
 	
 }
