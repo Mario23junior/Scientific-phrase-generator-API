@@ -41,7 +41,7 @@ mundo e sua ciência.
 ## Uso em produção
 
 ```
-  https://phrase-generator-science-api.herokuapp.com/api/project/rand
+  https://phrase-generator-science-api.herokuapp.com/api/project/rand/
 ```
   
 Algums parametros de ação são necessarios para a execução
@@ -61,7 +61,7 @@ java -jar target/phraseGenerator-1.0-SNAPSHOT.jar
 ## Uso local
 
 ```
-localhost:8080/api/project/rand
+localhost:8080/api/project/rand/
 ```
  
   
