@@ -53,5 +53,18 @@ public class phraseService {
 		}
 	}
 	
+	public ResponseEntity<PhrasesDTO> update(Long id, PhrasesDTO phrasesDto){
+		Optional<Phrases> findDataAll = phraseRepository.findById(id);
+		if(findDataAll.isPresent()) {
+			Phrases data = findDataAll.get();
+			data.setPhrases(phrasesDto.getPhrases());
+			data.setAuthor(phrasesDto.getAuthor());
+			phraseRepository.save(data);
+			return ResponseEntity.ok(mapper.map(data, PhrasesDTO.class));	
+		} else {
+			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+		}
+	}
+	
 	
 }
