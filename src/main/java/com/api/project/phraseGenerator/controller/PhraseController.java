@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/project/rand")
+@RequestMapping("/api/project/rand/")
 public class PhraseController {
    
 	private phraseService service;
@@ -34,12 +34,12 @@ public class PhraseController {
 		return service.savePhrase(phrasDto);
 	}
 	
-	@PutMapping
+	@PutMapping("{id}")
 	public ResponseEntity<PhrasesDTO> update(@RequestBody PhrasesDTO phrasDto, @PathVariable Long id){
 		return service.update(id, phrasDto);
 	}
 	
-	@DeleteMapping
+	@DeleteMapping("{id}")
 	public ResponseEntity<PhrasesDTO> delete(@PathVariable Long id){
 		return service.delete(id);
 	}
