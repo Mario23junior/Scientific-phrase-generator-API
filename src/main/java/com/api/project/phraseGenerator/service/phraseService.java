@@ -31,5 +31,17 @@ public class phraseService {
 		}
 	
 	}
+	
+	public ResponseEntity<PhrasesDTO> savePhrase(PhrasesDTO phrasesDto) {
+		Phrases body = bodySaveBase(mapper.map(phrasesDto, Phrases.class));
+		 return ResponseEntity
+				         .status(HttpStatus.OK)
+				         .body(mapper.map(body, PhrasesDTO.class));
+		 
+	}
 
+	public Phrases bodySaveBase(Phrases phrases) {
+		return phraseRepository.save(phrases);
+	}
+	
 }
