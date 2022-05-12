@@ -44,6 +44,12 @@ mundo e sua ciência.
   https://phrase-generator-science-api.herokuapp.com/api/project/rand/
 ```
   
+## Consulte a documentação da API em produção
+
+```
+https://phrase-generator-science-api.herokuapp.com/swagger-ui/index.html#/phrase-controller/findDataAll
+```
+  
 Algums parametros de ação são necessarios para a execução
 ### 📋 Pré-requisitos
 
