@@ -47,7 +47,7 @@ mundo e sua ciência.
 ## Consulte a documentação da API em produção
 
 ```
-https://phrase-generator-science-api.herokuapp.com/swagger-ui/index.html#/phrase-controller/findDataAll
+https://phrase-generator-science-api.herokuapp.com/swagger-ui/index.html#/findDataAll
 ```
   
 Algums parametros de ação são necessarios para a execução
