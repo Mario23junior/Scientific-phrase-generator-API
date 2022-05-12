@@ -59,11 +59,15 @@ java -jar target/phraseGenerator-1.0-SNAPSHOT.jar
 ```
  
 ## Uso local
-
+  
 ```
 localhost:8080/api/project/rand/
 ```
+## Acesse o swagger para uma melhor leitura  
  
+```
+http://localhost:8080/swagger-ui/index.html#/phrase-controller/findDataAll
+``` 
   
 ## 🛠️ Construído com
 
